@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #6d6ba8;
+  color: #1d2235;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #0f092a;
+}
+input,
+button {
+  display: block;
+  width: calc(100% - 40px);
+margin: 12px auto;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f4f4f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+input:focus,
+button:focus {
+    border-color: #6d6ba8;
+    box-shadow: 0 0 5px rgba(109, 107, 168, 0.5);
+}
+a {
+  color: chocolate;
+  font-size: 22px;
+}
+button {
+  background-color: #3f699e;
+  color: white;
+  cursor: pointer;
+  border: none;
+  width: 100px;
+}
+button:hover {
+  background-color: #0a3e75;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  padding: 10px;
+  margin: 5px 0;
+  background: #c2c7e6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul li:hover {
+  background-color: #cbdcf3;
+  cursor: pointer;
+}
+.btns {
+  display: flex;
+  gap: 10px;
+}
+.bookmark button.delete {
+  background-color: #d35461;
+  color: white;
+}
+.bookmark button.delete:hover {
+  background-color: #c82333;
+}
